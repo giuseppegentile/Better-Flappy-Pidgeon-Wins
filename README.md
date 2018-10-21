@@ -5,3 +5,11 @@ This repository is starting with the code from [Coding Challenge #31 on YouTube]
 Coding Train themed graphics are welcome! (But keep it simple!)
 
 * [Play the game!](https://codingtrain.github.io/Flappy-Bird-Clone/)
+
+
+Importante
+A causa del CORS chrome non permette di caricare le immagini dal file system. Per disabilitare questa funzione bisogna andare nel percorso del file exe di chrome tramite cmd e digitare: 
+chrome.exe --disable-web-security
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+
+In questo modo farà partire una sessione temporanea di chrome senza questa restrizione di sicurezza.
